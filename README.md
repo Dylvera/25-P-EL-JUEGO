@@ -1,37 +1,53 @@
-# MindSpy - Juego de 20 Preguntas
+# MindSpy Kids - Explorador de Países 🌍
 
-Un juego interactivo que adivina lo que estás pensando a través de preguntas inteligentes.
+Juego educativo para niños que ayuda a aprender sobre países y culturas del mundo.
 
-## Descripción
-
-MindSpy es un juego de adivinanzas desarrollado en Python usando Streamlit. El juego utiliza un sistema de aprendizaje que mejora con cada partida, haciéndolo más inteligente y preciso en sus predicciones.
-
-## Características
-
-- 🤔 Sistema de 20 preguntas inteligentes
-- 🧠 Aprendizaje automático basado en las respuestas
-- 🎮 Interfaz intuitiva y amigable
-- 📊 Sistema de puntuación
-- 💾 Base de conocimientos expansible
-
-## Cómo Jugar
-
-1. Piensa en un objeto
-2. Responde las preguntas con:
-   - Sí
-   - No
-   - A veces
-   - No sé
-3. ¡El juego intentará adivinar tu objeto!
-
-## Requisitos Técnicos
+## Requisitos 📋
 
 - Python 3.8+
 - Streamlit
-- Conexión a internet
+- Conexión a Internet (para API de países)
 
-## Instalación
+## Instalación 🔧
 
-1. Clona el repositorio
-2. Instala las dependencias con `pip install -r requirements.txt`
-3. Ejecuta con `streamlit run app.py`
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/tu-usuario/mindspy-kids.git
+cd mindspy-kids
+```
+
+2. Crear y activar entorno virtual:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+3. Instalar dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+## Uso 🎮
+
+1. Iniciar la aplicación:
+```bash
+streamlit run app.py
+```
+
+2. Abrir navegador en `http://localhost:8501`
+
+## Características ✨
+
+- Interfaz amigable para niños
+- Datos reales de países
+- Sistema de pistas
+- Aprendizaje interactivo
+
+## Contribuir 🤝
+
+1. Fork el proyecto
+2. Crear rama (`git checkout -b feature/AmazingFeature`)
+3. Commit cambios (`git commit -m 'Add AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abrir Pull Request
